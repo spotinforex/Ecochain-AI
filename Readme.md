@@ -9,7 +9,7 @@ Ecochain AI is a sustainability intelligence app powered by **Google BigQuery**.
 ## 🚀 Features
 
 * **Dashboard:** Real-time sustainability analytics from BigQuery.
-* **AI Assistant:** Natural language queries powered by BigQuery + AI.
+* **AI Assistant:** Natural language queries powered by BigQuery AI.
 * **Supplier Onboarding:** Instant ingestion of new supplier data into BigQuery.
 
 ---
