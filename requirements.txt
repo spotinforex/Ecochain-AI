@@ -1,0 +1,12 @@
+google-cloud-bigquery
+streamlit==1.47.1
+google-cloud-bigquery-storage
+pyarrow
+db-dtypes
+google-cloud-storage
+requests
+joblib
+xgboost
+lightgbm
+pandas
+numpy
