@@ -19,7 +19,7 @@ Ecochain AI is a sustainability intelligence app powered by **Google BigQuery**.
 Before running Ecochain AI, make sure you have:
 
 1. **Python 3.9+** installed.
-2. A **Google Cloud project** with **BigQuery enabled**.
+2. A **Google Cloud project** with **BigQuery and Vertex AI enabled**.
 3. A **Google Service Account** with billing enabled (required to query BigQuery).
 4. Your **Service Account JSON key file** downloaded locally.
 
