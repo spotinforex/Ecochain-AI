@@ -35,6 +35,7 @@ class LMMConnectors:
                                         product_category,
                                         sub_category,
                                         total_eco_score,
+                                        carbon_score,
                                         water_score,
                                         waste_score,
                                         social_score,
