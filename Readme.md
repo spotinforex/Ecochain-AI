@@ -57,7 +57,7 @@ Before running Ecochain AI, make sure you have:
    Example:
 
    ```python
-   file_path = "C:/Users/YourName/Downloads/service-account.json"
+   file_path = r"C:/Users/YourName/Downloads/service-account.json"
    project_path = "your-gcp-project-name"
    ```
 
