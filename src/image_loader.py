@@ -18,13 +18,15 @@ def image_reader(image_path:str):
     """
     try:
       logging.info("Converting Image In Progress")
+      if 'https' not in image_path:
+            url = image_path
+            parts  = url.replace("gs://","").split("/",1)
+            bucket_name = parts[0]
+            path_to_image = parts[1]
 
-      url = image_path
-      parts  = url.replace("gs://","").split("/",1)
-      bucket_name = parts[0]
-      path_to_image = parts[1]
-
-      public_url = f"https://storage.googleapis.com/{bucket_name}/{path_to_image}"
+            public_url = f"https://storage.googleapis.com/{bucket_name}/{path_to_image}"
+      else:
+            public_url = image_path
       logging.info(f"Connecting to image URL: {public_url}")
       response = requests.get(public_url)
       image = Image.open(io.BytesIO(response.content))
@@ -43,4 +45,3 @@ def image_reader(image_path:str):
     except Exception as e:
         logging.exception(f"Unexpected error: {e}")
         return None
-
