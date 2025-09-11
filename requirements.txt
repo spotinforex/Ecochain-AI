@@ -11,3 +11,4 @@ lightgbm
 pandas
 numpy
 plotly
+scikit-learn
