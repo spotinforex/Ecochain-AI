@@ -87,6 +87,8 @@ Ecochain demo showcases three main sections:
 2. **AI Assistant** – Ask questions in natural language.
 3. **Supplier Onboarding** – Add and score new suppliers.
 
+Demo Video Link: https://youtu.be/ZXmJ6XZkVJQ?feature=shared
+
 ---
 
 ## 📄 License
