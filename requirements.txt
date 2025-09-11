@@ -10,3 +10,4 @@ xgboost
 lightgbm
 pandas
 numpy
+plotly
