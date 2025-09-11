@@ -41,7 +41,7 @@ def classify_prompt(user_prompt):
         query_job = client.query(query, job_config=job_config)
 
         for row in query_job.result():
-            logging.info(f"Classifier Response: {row["route"]}")
+            logging.info(f"Classifier Response: {row['route']}")
             prompt_class = row["route"]
             return prompt_class
         else:
