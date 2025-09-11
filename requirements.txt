@@ -11,4 +11,4 @@ lightgbm
 pandas
 numpy
 plotly
-scikit-learn
+scikit-learn==1.7.0
