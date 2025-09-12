@@ -1,5 +1,3 @@
-
-````markdown
 # Ecochain AI 🌍
 
 Ecochain AI is a sustainability intelligence app powered by **Google BigQuery**.  
