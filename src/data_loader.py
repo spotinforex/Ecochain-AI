@@ -15,7 +15,7 @@ class BigQueryCONN:
             os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = src.config.file_path
 
             # Initialize client
-            self.client = bigquery.Client(project = src.config.project_name)
+            self.client = bigquery.Client(project = src.config.project_id)
 
         except Exception as e:
             print(f"Failed to Connect To BigQuery: {e}")
