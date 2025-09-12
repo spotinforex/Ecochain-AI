@@ -12,7 +12,7 @@ def classify_prompt(user_prompt):
         user_prompt (str): The raw user query.
 
     Returns:
-        str: One of ML.GENERATE_TEXT, AI.GENERATE, AI.GENERATE_IMAGE, VECTOR_SEARCH, VECTOR_SEARCH_IMAGE
+        str: One of AI.GENERATE or VECTOR_SEARCH
     """
     try:
         logging.info("Classifying Prompt...")
