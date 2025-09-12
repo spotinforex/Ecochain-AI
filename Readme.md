@@ -28,9 +28,8 @@ bq mk --connection --connection_type=CLOUD_RESOURCE --location=US test_connectio
 # 5. Grant Vertex AI permissions (replace YOUR_PROJECT_ID and `SERVICE_ACCOUNT_EMAIL`)
 gcloud projects add-iam-policy-binding YOUR_PROJECT_ID \
   --member="serviceAccount:`SERVICE_ACCOUNT_EMAIL`" \
-  --role="roles/aiplatform.user" \
-  --role="roles/bigquery.connectionUser"
-
+  --role="roles/aiplatform.user"
+  
 # 6. Run the app
 streamlit run app.py
 ````
@@ -108,7 +107,7 @@ Before running Ecochain AI, make sure you have:
 6. **Grant Vertex AI permissions** to BigQuery (replace `YOUR_PROJECT_ID` with your actual project ID and `SERVICE_ACCOUNT_EMAIL` with your provided service account email):
 
    ```bash
-   gcloud projects add-iam-policy-binding `YOUR_PROJECT_ID`  --member="serviceAccount:`SERVICE_ACCOUNT_EMAIL`" --role="roles/aiplatform.user" --role="roles/bigquery.connectionUser"
+   gcloud projects add-iam-policy-binding `YOUR_PROJECT_ID`  --member="serviceAccount:`SERVICE_ACCOUNT_EMAIL`" --role="roles/aiplatform.user"
    ```
 
 7. **Run the app**:
